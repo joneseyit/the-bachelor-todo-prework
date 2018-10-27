@@ -44,7 +44,10 @@ hash = {
 
 def get_first_name_of_season_winner(data, season)
   data.each do |season_number, contestant_array|
-    binding.pry
+    contestant_array.each do |key, value|
+      binding.pry
+    end
+    
   end
 
 end
