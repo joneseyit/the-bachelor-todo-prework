@@ -47,7 +47,7 @@ def get_first_name_of_season_winner(data, season)
     contestant_array.each do |key, value|
       binding.pry
     end
-    
+
   end
 
 end
