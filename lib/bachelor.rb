@@ -1,5 +1,5 @@
 require "pry"
-hash = { 
+hash = {
   "season 30": [
     {
       "name":      "Beth Smalls",
@@ -46,5 +46,5 @@ def get_first_name_of_season_winner(data, season)
   data.each do |season_number, contestant_array|
     binding.pry
   end
-  
+
 end
